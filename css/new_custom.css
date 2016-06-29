@@ -1,0 +1,185 @@
+.section_title {
+	color: white;
+}
+.section_title2 {
+    color: #F8981D;
+}
+.process-title {
+    color: #04345d;
+}
+figcaption i {
+	/*border: 1px solid white;*/
+    /*padding: 12px;
+    border-radius: 50%;*/
+}
+#menu li {
+    display: block;
+    margin: 5px 0;
+    color: #000;
+    background: #fff;
+    background: #f1f1f1;
+    width: 90px;
+}
+#menu li.active{
+    background:#666;
+    background: rgb(2, 118, 215);
+    color: #fff;
+}
+#menu li a{
+    text-decoration:none;
+    color: #000;
+}
+#menu li.active a:hover{
+    color: #000;
+}
+#menu li:hover{
+    background: rgb(66, 133, 244)
+}
+#menu li a,
+#menu li.active a{
+    padding: 9px 18px;
+    display:block;
+}
+#menu li.active a{
+    color: #fff;
+}
+#menu{
+    position:fixed;
+    top:25%;
+    left:0;
+    height: 40px;
+    z-index: 70;
+    width: 100px;
+    padding: 0;
+    margin:0;
+}
+.box {
+    border-radius: 3px;
+   /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
+    padding: 10px 25px;
+    text-align: right;
+    display: block;
+    margin-top: 60px;
+}
+.box-icon {
+    background-color: #57a544;
+    border-radius: 50%;
+    display: table;
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: -61px;
+}
+.box-icon-1 {
+    background: rgb(219, 68, 55);
+}
+.box-icon-2 {
+    background: rgb(244, 180, 0);
+}
+.box-icon-3 {
+    background: rgb(15, 157, 88);
+}
+.box-icon-4 {
+    background: rgb(66, 133, 244);
+}
+.box-icon-5 {
+    background: rgb(0,188,212);   
+}
+.box-icon-6 {
+    background: #3f51b5;
+}
+.box-icon span {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.info h4 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.offer-text{
+    padding-top: 9%;
+    font-size: 5vh;
+    line-height: 7vh;
+}
+.process-text {
+    line-height: 42px;
+    font-size: 20px;
+    text-align: justify;
+}
+.full-height-vh {
+    height: 100vh;
+}
+figcaption img {
+    opacity: 1 !important;
+    height: 50px !important;
+    width: 50px;
+    border: 0 !important;
+    margin: 0 auto;
+}
+.service-background {
+    background: url(../images/bg/bg.png);
+    background-size: cover;
+    background-position: 50%;
+}
+.address {
+    text-indent: 18px;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+.address-text {
+    font-size: 16px;
+    color: white;
+}
+.contact_section {
+    background:url('../images/bg/map.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.contact_section .fa {
+    color: white;
+}
+.expertise {
+    background: #012038;
+}
+/* Small Devices Potrait */
+@media (max-width : 767px){
+    #menu, .slides-control {
+        display: none;
+    }
+    body figure.effect-ruby h2 {
+        margin-top: 0%;
+    }
+    body .slider-text-2 {
+        font-size: 3vh;
+        line-height: 3vh;
+        top: 55%;
+    }
+    body .slider-title-text-2 {
+        top: 27%;
+        font-size: 2.5vh;
+    }
+}
+
+@media (max-width : 990px){
+    #menu, .slides-control {
+        display: none;
+    }
+    body .slider-title-text {
+        top: 10%;
+    }
+    body .slider-text {
+        top:30%;
+    }
+    body .process_title, body .section_title , body .section_title2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width : 1025px){
+    #menu, .slides-control {
+        display: none;
+    }
+}

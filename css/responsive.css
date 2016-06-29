@@ -1,0 +1,490 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width: 769px) and (max-width : 1200px) {
+	 #service-slider, #testimonial, #data-orbit-section, #pricing_table {
+		display: none;
+	}
+	.slider-title-text-2 {
+	    position: absolute;
+	    left: 0;
+	    top: 25%;
+	    font-size: 2vh;
+	    line-height: 3vh;
+	    color: white;
+	}
+	.slider-title-text {
+	    position: absolute;
+	    left: 0;
+	    top: 15%;
+	    font-size: 3vh;
+	    line-height: 3vh;
+	    color: #F8981D;
+	}
+	.slider-text {
+	    font-size: 2.5vh;
+	    line-height: 3.5vh;
+	    position: absolute;
+	    left: 0;
+	    top: 30%;
+	    text-align: left;
+	}
+	.service-desktop {
+		margin: 0 25%;
+	}
+}
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+
+	/*ul.navbar-nav a {
+    	padding: 15px 0px 10px 19px;
+	}*/
+	/*portfolio*/
+	.video-section {
+        padding: 120px 0;
+    }
+	.single-portfolio figcaption .links a {
+	    float: left;
+	    margin: 0px 5px 0px 0px;
+	}
+}
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+	
+	.navbar-header{
+		width: 20%;
+	}
+	.navbar-brand {
+    	height: 48px;
+	}
+	ul.navbar-nav a {
+	    padding: 15px 0px 10px 10px;
+	}
+	
+	/*main Slider*/
+	#slider_part {
+    	height: 530px;
+    	margin-top: 70px;
+	}
+	.carousel-caption {
+    	top: 30%;
+	}
+	.carousel-caption h2{
+    	font-size: 30px;
+		line-height: 55px;
+		width: 30%;
+		margin-bottom: 40px;
+	}
+	.carousel-caption h2:after{
+	    height: 80px;
+	}
+	.carousel-caption h2:before{
+	    height: 80px;
+	}
+	.carousel-caption h3 {
+	    font-size: 40px;
+	    line-height: 30px;
+	}
+	.carousel-caption p {
+	    font-size: 30px;
+	    line-height: 45px;
+	}
+	.overlay-slide {
+    	height: 100%;
+	}
+	.carousel-indicators {
+    	bottom: 15%;
+	}
+	.carousel-control.right {
+    	right: 32px;
+	}
+
+	/*ABout us*/
+	.feature_content .btn-main{
+		margin-bottom: 40px;
+	}
+
+	/*portfolio*/
+	
+	.single-portfolio figcaption .links a {
+	    float: left;
+	    margin: 0px 5px 0px 0px;
+	}
+	/*count*/
+	.facts-wrap {
+    	margin: 0px auto 65px;
+	}
+
+	.video-text {
+    	margin-top: 30px;
+	}
+
+	/*pricing*/
+	.pricing{
+		margin: 0 auto;
+		width: 50%;
+	}
+	.cyprass-carousel-controller {
+	    left: 41%;
+	}
+	.testimonial-slide .testimonial-text {
+	    font-size: 14px;
+	    padding-top: 20px;
+	    text-align: justify;
+	    max-width: 651px;
+	    padding: 0px 20px 0px 20px;
+	}
+
+	/*backt top*/
+	#back-top {
+    	right: 12px;
+	}
+	
+	/*-- Landing ---*/
+
+	.hero-text{
+		width: 95%;
+	}
+	.hero-title{
+		font-size: 36px;
+	}
+	.hero-buttons a.btn {
+		padding: 10px 20px;
+	}
+
+	.app-gallery figure.effect-oscar a{
+		margin-top: 105px;
+	}
+
+	.slider-text {
+	    font-size: 2.5vh;
+	    line-height: 3.5vh;
+	    position: absolute;
+	    left: 0;
+	    top: 30%;
+	    text-align: left;
+	}
+	.slider-title-text {
+	    position: absolute;
+	    left: 0;
+	    top: 10%;
+	    font-size: 2vh;
+	    line-height: 2vh;
+	    color: #F8981D;
+	}
+
+	.slider-text-2 {
+	    font-size: 2.5vh;
+	    line-height: 2.5vh;
+	    position: absolute;
+	    left: 0;
+	    color: aqua;
+	    top: 25%;
+	}
+
+	.slider-title-text-2 {
+	    position: absolute;
+	    left: 0;
+	    top: 5%;
+	    font-size: 2vh;
+	    line-height: 2vh;
+	    color: white;
+	}
+
+	.down-arrow, #service-slider, #testimonial, .flag-section, #data-orbit-section {
+		display: none;
+	}
+}
+/* Small Devices Potrait */
+@media (max-width : 767px){
+	#testimonial {
+		display: none;
+	}
+	.carousel-caption h3 {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.carousel-caption p {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.carousel-caption h2{
+    	font-size: 16px;
+		line-height: 34px;
+		width: 50%;
+	}
+	.carousel-caption h2:after{
+	    content: "";
+	    position: absolute;
+	    width: 2px;
+	    height: 55px;
+	    background: #EE3B24;
+	    left: 5px;
+	    top: -10px;
+	}
+	.carousel-caption h2:before{
+	    content: "";
+	    position: absolute;
+	    width: 2px;
+	    height: 55px;
+	    background: #EE3B24;
+	    right: 5px;
+	    top: -10px;
+	}
+	/*main Slider*/
+	
+	.carousel-caption {
+    	top: 20%;
+	}
+	.overlay-slide {
+    	height: 100%;
+	}
+	.carousel-caption p {
+	    font-size: 12px;
+	    line-height: 14px;
+	    margin-top: 20px;
+	}
+	.carousel-indicators li {
+	    width: 15px !important;
+	    height: 15px !important;
+	}
+	.carousel-indicators {
+    	width: 25%;
+	}
+	.carousel-indicators {
+	    left: 37%;
+	    bottom: 9%;
+	}
+	
+	.slides-control .carousel-control i {
+	    line-height: 15px;
+	    font-size: 20px;
+	    width: 30px;
+	    height: 30px;
+	}
+	.carousel-control.right {
+    	right: 30px;
+	}
+	
+	/*header*/
+  	.navbar-brand img {
+	    height: 45px;
+	    margin-top: -16px;
+	}
+
+	.feature_title {
+    	width: 60%;
+    	font-size: 30px;
+	}
+	.feature_content .btn-main{
+		margin-bottom: 40px;
+	}
+	
+	#service{
+		padding-bottom: 0px;
+		padding-top: 40px;
+	}
+	
+	/*count*/
+	.facts-wrap {
+    	margin: 0px auto 65px;
+	}
+
+	.video-text {
+    	margin-top: 30px;
+	}
+
+	/*pricing table*/
+	.single_table {
+    	width: 287px;
+	}
+	.single_table ul li.price {
+   		font-size: 40px;
+	}
+	.single_table .plan_wraper {
+	    height: 64px;
+	    left: 38%;
+	}
+	.single_table ul li {
+    font-size: 16px;
+	}
+	.grey_bg{
+		-webkit-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+	}
+
+	/*Testimonial */
+	.cyprass-carousel-controller {
+	    left: 33%;
+	}
+	.testimonial-slide .testimonial-text {
+	    font-size: 14px;
+	    padding-top: 20px;
+	    text-align: justify;
+	    max-width: 431px;
+	    padding: 0px 20px 0px 20px;
+	}
+	/*client*/
+	.client_logo {
+	    padding: 0px;
+	    margin: 0 auto;
+	    width: 50%;
+	}
+	
+	#client {
+    	padding: 0px 0px;
+	}
+	
+	/*blog*/
+	#banner {
+	    height: 400px;
+	}
+	.blog-header {
+	    margin-top: 95px;
+	}
+	#portfolio-slider li img {
+	    height: 250px !important;
+	}
+	.bx-wrapper .bx-controls-direction a {
+    	top: 42%;
+	}
+	.bx-wrapper .bx-viewport {
+	    height: 250px !important;
+	}
+	.bx-wrapper .bx-pager {
+    	top: 60%;
+	}
+	.share1 {
+	    height: 88px;
+	    padding: 5px 20px 30px 20px;
+	}
+	.blog-desc{
+		margin-top: -90px;
+	}
+
+	/*footer*/
+	.footer_b {
+	    padding-bottom: 21px;
+	}
+	.footer_mid{
+		float: left !important;
+	}
+	
+	/*backt top*/
+	#back-top {
+    	right: 12px;
+	}
+
+	.down-arrow, #service-slider {
+		display: none;
+	}
+	.slider-title-text {
+		top: 55%;
+	    font-size: 2vh;
+	    line-height: 2vh;
+	}
+	.slider-button {
+		display: none;
+	}
+
+	.slider-title-text-2 {
+		top: 40%;
+    	font-size: 1.5vh;
+	}
+	.slider-text-2 {
+	    font-size: 2vh;
+	    line-height: 3vh;
+	    top: 65%;
+	}
+}
+@media screen and (min-width:940px) {
+    body .custom-port-width {
+        width: 24.99%;
+    }
+    .service-mobile, .team-mobile  {
+        display: none;
+    }
+    #slider_part {
+        height: 100vh;
+    }
+}
+@media screen and (max-width:941px) {
+    .title .line , .title .line2 ,.title1 .line , .title1 .line2 , .title2 .line , .title2 .line2 , .title3 .line , .title3 .line2, .title4 .line , .title4 .line2  {
+        display: none;
+    }
+
+    .title-service .text2 , .title-service .text3 ,.title-team .text2 ,.title-team .text3{
+        background-image: none;
+    }
+    body .service-mobile, body .team-mobile {
+        display: block;
+    }
+
+    body .service-desktop, body .team-desktop , .process-mobile{
+        display: none;
+    }
+    section , .title2, .title2 .text2 {
+        position: initial;
+    }
+    body .title-contact .text2 {
+        background-image: none;
+    }
+}
+@media screen and (min-width: 1367px) {
+    .carousel-caption {
+        top: 20%;
+    }
+    body .slider-text {
+        top: 30%;
+    }
+    .slider-title-text {
+        top: 20%;
+    }    
+}
+@media screen and (max-width:640px) {
+    .dotted-line-up:after {
+      display: none;
+    }
+    .dotted-line-down:after {
+      display: none;
+    }
+    .dotted-line-down-1:after {
+      display: none;
+    }
+    .dotted-line-right:before {
+      display: none;
+    }
+    .dotted-line-left:after {
+      display: none;
+    }
+    #data-orbit-section {
+      display: none;
+    }
+    .carousel-indicators {
+      display: none;
+    }
+    .process {
+    text-align: center;
+    }
+    .feature_title {
+        text-align: center;
+    }
+    .slider-text {
+        top: 70%;
+        font-size: 2.5vh;
+        line-height: 3.5vh;
+    }
+}
+@media (min-width: 768px ) {
+    .video-section {
+        padding: 100px 0;
+    }   
+}
+@media (max-width: 1025px) {
+	.slides-control {
+        display: none;
+    }
+}
